@@ -1,0 +1,191 @@
+.main-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 960px;
+  margin: 0 auto;
+  background-color: #f7fafc;
+}
+.main-page-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #f7fafc;
+  padding: 1rem 2rem;
+  color: black;
+  text-decoration: none;
+  border-bottom: #cbcdd0 0.5px solid;
+}
+.logo-group {
+  text-decoration: none;
+  color: black;
+}
+.nav-link button {
+  background-color: #e9edf2;
+  color: black;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.signup-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+  padding-top: 10px;
+  margin: 2px auto;
+  padding: 20px;
+  max-width: 500px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.signup-form-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.signup-form-header h1 {
+  font-size: 24px;
+  margin: 0;
+  color: black;
+}
+
+.signup-form {
+  width: 100%;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  margin-bottom: 5px;
+  text-align: left;
+  font-size: 14px;
+  color: #333;
+}
+
+.form-group input {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-group input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.terms {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+
+.form-group.terms input[type="checkbox"] {
+  margin-right: 10px; /* Space between checkbox and label */
+}
+
+.form-group.terms label {
+  margin: 0;
+  text-align: left;
+  font-weight: normal;
+  display: inline; /* Ensure the label is inline with the checkbox */
+}
+
+.signup-btn {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.signup-btn:hover {
+  background-color: #0056b3;
+}
+
+.terms-info {
+  margin-top: 20px;
+  font-size: 12px;
+  color: #666;
+  text-align: center;
+}
+
+.terms-info a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.terms-info a:hover {
+  text-decoration: underline;
+}
+
+/* >>>>successfully-signedUp-page styling */
+
+/* SignUpSuccess.css */
+.success-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  width: 600px;
+  min-height: 70vh;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+.success-header {
+  margin-top: 20px;
+}
+
+/* .card {
+  text-align: center;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+} */
+
+.title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.message {
+  margin-bottom: 2rem;
+  color: #4a5568;
+  font-size: 15px;
+  padding: 0 45px;
+}
+
+.button {
+  width: 260px;
+  background-color: #4299e1;
+  color: white;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #3182ce;
+}
